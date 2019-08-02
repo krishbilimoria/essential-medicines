@@ -1,0 +1,138 @@
+﻿country,country_code,geographic_region,income_group ,health_expenditure,population,gdp,neml_year,he_year,pop_year,gdp_year
+Afghanistan,AFG,Eastern Mediterranean,Low income,162.78,35383128,67121529135,2014,2016,2016,2016
+Albania,ALB,Europe,Upper middle income,759.67,2876101,37153993473,2011,2016,2016,2016
+Algeria,DZA,Africa,Upper middle income,998.15,40551404,6.31868E+11,2016,2016,2016,2016
+Angola,AGO,Africa,Lower middle income,185.82,28842484,1.98299E+11,2007,2016,2016,2016
+Antigua and Barbuda,ATG,The Americas,High income,976.39,94527,2399538417,2008,2016,2016,2016
+Argentina,ARG,The Americas,High income,1531.04,43590368,9.18033E+11,2011,2016,2016,2016
+Armenia,ARM,Europe,Upper middle income,876.86,2936146,28331472880,2010,2016,2016,2016
+Bahrain,BHR,Eastern Mediterranean,High income,1866.3,1425791,71208283858,2015,2016,2016,2016
+Bangladesh,BGD,South-East Asia,Lower middle income,90.6,157970840,6.3843E+11,2008,2016,2016,2016
+Barbados,BRB,The Americas,High income,1322.99,285796,5302755008,2011,2016,2016,2016
+Belarus,BLR,Europe,Upper middle income,1151.41,9501534,1.79669E+11,2012,2016,2016,2016
+Belize,BLZ,The Americas,Upper middle income,541.43,368400,3194203642,2008,2016,2016,2016
+Bhutan,BTN,South-East Asia,Lower middle income,293.11,736709,7584701339,2016,2016,2016,2016
+Bolivia,BOL,The Americas,Lower middle income,496.31,11031813,83723411343,2011,2016,2016,2016
+Bosnia and Herzegovina,BIH,Europe,Upper middle income,1123.43,3386267,46033324686,2009,2016,2016,2016
+Botswana,BWA,Africa,Upper middle income,931.3,2159944,39217883524,2012,2016,2016,2016
+Brazil,BRA,The Americas,Upper middle income,1777.47,206163058,3.25514E+12,2014,2016,2016,2016
+Bulgaria,BGR,Europe,Upper middle income,1577.94,7127822,1.48228E+11,2011,2016,2016,2016
+Burkina Faso,BFA,Africa,Low income,115.6,18646378,35817942701,2014,2016,2016,2016
+Burundi,BDI,Africa,Low income,50.25,10487998,7990111828,2012,2016,2016,2016
+Cambodia,KHM,South-East Asia,Lower middle income,228.57,15766293,64352721029,2003,2016,2016,2016
+Cameroon,CMR,Africa,Lower middle income,169.29,23926539,89538347743,2010,2016,2016,2016
+Cape Verde,CPV,Africa,Lower middle income,347.64,531146,3776982885,2009,2016,2016,2016
+Central African Republic,CAF,Africa,Low income,29.91,4537687,3811699727,2009,2016,2016,2016
+Chad,TCD,Africa,Low income,94.95,14561666,28974454320,2007,2016,2016,2016
+Chile,CHL,The Americas,High income,2002.01,18209068,4.47887E+11,2005,2016,2016,2016
+China,CHN,Western Pacific,Upper middle income,761.49,1378665000,2.32668E+13,2012,2016,2016,2016
+Colombia,COL,The Americas,Upper middle income,829.8,48171392,7.09421E+11,2011,2016,2016,2016
+Congo,COG,Africa,Lower middle income,263.29,4980999,28693520065,2013,2016,2016,2016
+Cook Islands,,Western Pacific,,,,,2007,,,
+Costa Rica,CRI,The Americas,Upper middle income,1248.55,4899345,84031346801,2014,2016,2016,2016
+Côte d'Ivoire,CIV,Africa,Lower middle income,162.64,23822714,95836748084,2014,2016,2016,2016
+Croatia,HRV,Europe,High income,1705.21,4174349,1.08457E+11,2010,2016,2016,2016
+Cuba,CUB,The Americas,Upper middle income,2478.8,11335109,96851000,2012,2015,2016,2017 (US)
+Czech Republic,CZE,Europe,High income,2484.63,10566332,4.02796E+11,2012,2016,2016,2016
+Democratic Peoples Republic of Korea,PRK,South-East Asia,Low income,2711.74,51245707,1.99813E+12,2012,2016,2016,2016
+Democratic Republic of Congo,COD,Africa,Low income,34.49,78789127,72337232184,2010,2016,2016,2016
+Djibouti,DJI,Eastern Mediterranean,Lower middle income,122.08,929112,2342710799,2007,2011,2016,2011
+Dominica,DMA,The Americas,Upper middle income,580.66,71307,742015639.1,2007,2016,2016,2016
+Dominican Republic,DOM,The Americas,Upper middle income,936.82,10397743,1.72957E+11,2015,2016,2016,2016
+Ecuador,ECU,The Americas,Upper middle income,942.89,16491115,1.93049E+11,2013,2016,2016,2016
+Egypt,EGY,Eastern Mediterranean,Lower middle income,516.34,94447072,1.13243E+12,2012,2016,2016,2016
+El Salvador,SLV,The Americas,Lower middle income,599.55,6356143,50931018430,2009,2016,2016,2016
+Eritrea,ERI,Africa,Low income,55.33,5970646,6758835465,2010,2011,2018,2011
+Estonia,EST,Europe,High income,1987.72,1315790,44063633073,2012,2016,2016,2016
+Ethiopia,ETH,Africa,Low income,69.52,103603501,2.01867E+11,2014,2016,2016,2016
+Fiji,FJI,Western Pacific,Upper middle income,313.17,872399,9054463164,2015,2016,2016,2016
+Gambia,GMB,Africa,Low income,74.31,2149139,3569106096,2001,2016,2016,2016
+Georgia,GEO,Europe,Lower middle income,797.18,3727505,39793370089,2007,2016,2016,2016
+Ghana,GHA,Africa,Lower middle income,189.37,28481946,1.29805E+11,2010,2016,2016,2016
+Grenada,GRD,The Americas,Upper middle income,745.1,110261,1634179176,2007,2016,2016,2016
+Guinea,GIN,Africa,Low income,107.72,11738441,29387093923,2012,2016,2016,2016
+Guyana,GUY,The Americas,Upper middle income,332.67,771366,6310620920,2010,2016,2016,2016
+Haiti,HTI,The Americas,Low income,95.44,10839970,19972602911,2012,2016,2016,2016
+Honduras,HND,The Americas,Lower middle income,400.34,9270795,46359852557,2009,2016,2016,2016
+India,IND,South-East Asia,Lower middle income,241.48,1324509589,9.59684E+12,2015,2016,2016,2016
+Indonesia,IDN,South-East Asia,Lower middle income,362.72,261554226,3.24964E+12,2011,2016,2016,2016
+Iran (Islamic Republic of),IRN,Eastern Mediterranean,Upper middle income,1563.75,79564016,1.69506E+12,2014,2016,2016,2016
+Iraq,IRQ,Eastern Mediterranean,Upper middle income,481,36610632,6.53999E+11,2010,2015,2016,2016
+Jamaica,JAM,The Americas,Upper middle income,535.66,2906238,26202330526,2012,2016,2016,2016
+Jordan,JOR,Eastern Mediterranean,Upper middle income,494.75,9551467,89283185655,2011,2016,2016,2016
+Kenya,KEN,Africa,Lower middle income,143.54,49051686,1.63629E+11,2016,2016,2016,2016
+Kiribati,KIR,Western Pacific,Lower middle income,249.84,112524,254335004.9,2009,2016,2016,2016
+Kyrgyzstan,,Europe,,240.23,6079500,23141637562,2009,2016,2016,2016
+Latvia,LVA,Europe,High income,1589.69,1959537,55086061168,2012,2016,2016,2016
+Lebanon,LBN,Eastern Mediterranean,Upper middle income,1147.37,6711121,87286452031,2014,2016,2016,2016
+Lesotho,LSO,Africa,Lower middle income,242.73,2075001,6548218774,2005,2016,2016,2016
+Liberia,LBR,Africa,Low income,133.15,4586788,6081936621,2011,2016,2016,2016
+Lithuania,LTU,Europe,High income,1978.27,2868231,94051970915,2012,2016,2016,2016
+Madagascar,MDG,Africa,Low income,90.43,24894380,39900329809,2008,2016,2016,2016
+Malawi,MWI,Africa,Low income,115.16,17205289,22434950110,2015,2016,2016,2016
+Malaysia,MYS,Western Pacific,Upper middle income,1052.55,30684804,9.33278E+11,2014,2016,2016,2016
+Maldives,MDV,South-East Asia,Upper middle income,1628.54,475513,7281568559,2011,2016,2016,2016
+Mali,MLI,Africa,Low income,81.18,17965429,41130057354,2012,2016,2016,2016
+Malta,MLT,Europe,High income,3511.14,455356,19444662073,2008,2016,2016,2016
+Marshall Islands,MHL,Western Pacific,Upper middle income,934.44,57735,225626056.3,2007,2016,2016,2016
+Mauritania,MRT,Africa,Lower middle income,163.92,4163534,17415817943,2008,2016,2016,2016
+Mexico,MEX,The Americas,Upper middle income,971.82,123333376,2.4247E+12,2011,2016,2016,2016
+Mongolia,MNG,South-East Asia,Lower middle income,466.69,3056359,39816777184,2009,2016,2016,2016
+Montenegro,MNE,Europe,Upper middle income,1333.93,622303,12045985737,2011,2016,2016,2016
+Morocco,MAR,Eastern Mediterranean,Lower middle income,465.7,35126296,2.98504E+11,2012,2016,2016,2016
+Mozambique,MOZ,Africa,Low income,61.65,27829942,37093252342,2016,2016,2016,2016
+Myanmar,MMR,South-East Asia,Lower middle income,291.09,53045226,3.29498E+11,2010,2016,2016,2016
+Namibia,NAM,Africa,Upper middle income,969.26,2358041,26679511307,2016,2016,2016,2016
+Nauru,NRU,Western Pacific,Upper middle income,1246.3,13049,193646253,2010,2016,2016,2016
+Nepal,NPL,South-East Asia,Low income,155.97,27261131,79194311734,2011,2016,2016,2016
+Nicaragua,NIC,The Americas,Lower middle income,484.53,6303974,36311830072,2011,2016,2016,2016
+Nigeria,NGA,Africa,Lower middle income,213.74,185960289,1.12378E+12,2010,2016,2016,2016
+Niue,,Western Pacific,,,,,2006,,,
+Oman,OMN,Eastern Mediterranean,High income,2826.85,4479219,1.91622E+11,2009,2016,2016,2016
+Pakistan,PAK,Eastern Mediterranean,Lower middle income,144.12,203627284,1.09129E+12,2016,2016,2016,2016
+Palau,PLW,Western Pacific,High income,1891.92,17725,322763829,2006,2016,2016,2016
+Papua New Guinea,PNG,Western Pacific,Lower middle income,92.27,8271760,36025584650,2012,2016,2016,2016
+Paraguay,PRY,The Americas,Upper middle income,767.77,6777872,89077357209,2009,2016,2016,2016
+Peru,PER,The Americas,Upper middle income,681,30926032,4.3306E+11,2012,2016,2016,2016
+Philippines,PHL,Western Pacific,Lower middle income,342.29,103663927,8.7718E+11,2008,2016,2016,2016
+Poland,POL,Europe,High income,1784.4,37970087,1.13662E+12,2017,2016,2016,2016
+Portugal,PRT,Europe,High income,2778.42,10325452,3.35319E+11,2011,2016,2016,2016
+Republic of Moldova,MDA,Europe,Lower middle income,480.38,3551954,24343552149,2011,2016,2016,2016
+Romania,ROU,Europe,Upper middle income,1152.18,19702332,5.20938E+11,2012,2016,2016,2016
+Russian Federation,RUS,Europe,Upper middle income,1329.29,144342396,3.78363E+12,2014,2016,2016,2016
+Rwanda,RWA,Africa,Low income,130.38,11668818,24947828862,2010,2016,2016,2016
+Saint Kitts and Nevis,KNA,The Americas,High income,1479.57,51625,1584879613,2007,2016,2016,2016
+Saint Lucia,LCA,The Americas,Upper middle income,677.4,180024,2455433714,2007,2016,2016,2016
+Saint Vincent and the Grenadines,VCT,The Americas,Upper middle income,409.14,109459,1293396509,2010,2016,2016,2016
+Senegal,SEN,Africa,Low income,141.69,14993528,54833442984,2013,2016,2016,2016
+Serbia,SRB,Europe,Upper middle income,1322.56,7058322,1.15376E+11,2010,2016,2016,2016
+Seychelles,SYC,Africa,High income,1122.56,94677,2785414459,2010,2016,2016,2016
+Slovakia,SVK,Europe,High income,2172.16,5430798,1.76075E+11,2012,2016,2016,2016
+Slovenia,SVN,Europe,High income,2772.23,2065042,74706917047,2017,2016,2016,2016
+Solomon Islands,SLB,Western Pacific,Lower middle income,117.76,619437,1487935001,2017,2016,2016,2016
+Somalia,SOM,Africa,Low income,,14185613,,2006,,2016,
+South Africa,ZAF,Africa,Upper middle income,1071.35,56203654,7.67167E+11,2014,2016,2016,2016
+Sri Lanka,LKA,South-East Asia,Lower middle income,491.49,21203000,2.76168E+11,2013,2016,2016,2016
+Sudan,SDN,Africa,Lower middle income,297.86,39847440,1.9918E+11,2014,2016,2016,2016
+Suriname,SUR,The Americas,Upper middle income,907.6,564888,8558820521,2014,2016,2016,2016
+Sweden,SWE,Europe,High income,5386.73,9923085,5.17014E+11,2016,2016,2016,2016
+Syrian Arab Republic,SYR,Eastern Mediterranean,Low income,159.7,17453933,,2008,2012,2016,
+Tajikistan,TJK,Europe,Low income,208.51,8663579,28564098681,2009,2016,2016,2016
+Thailand,THA,South-East Asia,Upper middle income,635.02,68971331,1.24005E+12,2013,2016,2016,2016
+The former Yugoslav Republic of Macedonia,MKD,Europe,Upper middle income,934.58,2080745,31852214256,2008,2016,2016,2016
+Timor-Leste,TLS,South-East Asia,Lower middle income,121.68,1219288,9220301265,2015,2016,2016,2016
+Togo,TGO,Africa,Low income,99.9,7509952,12954602664,2012,2016,2016,2016
+Tonga,TON,Western Pacific,Upper middle income,311.43,101133,644791264,2007,2016,2016,2016
+Trinidad and Tobago,TTO,The Americas,High income,2180.52,1377564,43499718859,2010,2016,2016,2016
+Tunisia,TUN,Eastern Mediterranean,Lower middle income,806.34,11303946,1.37739E+11,2012,2016,2016,2016
+Tuvalu,TUV,Western Pacific,Upper middle income,601.03,11225,44384557.4,2010,2016,2016,2016
+Uganda,UGA,Africa,Low income,117.11,39647506,80075755458,2012,2016,2016,2016
+Ukraine,UKR,Europe,Lower middle income,534.19,45004645,3.69356E+11,2009,2016,2016,2016
+United Republic of Tanzania,TZA,Africa,Low income,111.98,53050790,1.63993E+11,2013,2016,2016,2016
+Uruguay,URY,The Americas,High income,1958.9,3424132,78108553378,2011,2016,2016,2016
+Vanuatu,VUT,Western Pacific,Lower middle income,116.09,278330,888024689,2006,2016,2016,2016
+Venezuela (Bolivarian Republic of),VEN,The Americas,Upper middle income,579.4,29846179,5.43891E+11,2004,2015,2016,2014
+Vietnam,VNM,Western Pacific,Lower middle income,356.28,93638724,6.48742E+11,2008,2016,2016,2016
+Yemen,YEM,Eastern Mediterranean,Low income,144.5,27168210,73631685331,2009,2015,2016,2016
+Zambia,ZMB,Africa,Lower middle income,175.18,16363507,68933607044,2013,2016,2016,2016
+Zimbabwe,ZWE,Africa,Low income,185.05,14030390,40229128006,2011,2016,2016,2016

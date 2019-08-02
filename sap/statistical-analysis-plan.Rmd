@@ -1,0 +1,133 @@
+---
+title: 'Associations of medicines listed on national essential medicines lists with health outcomes in 137 countries: a statistical analysis plan'
+author: "Krish Bilimoria"
+date: "`r format(Sys.time(), '%d %B, %Y')`"
+output:
+  pdf_document: default
+bibliography: bibliography.bib
+csl: vancouver.csl
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+The following statistical analysis plan (SAP) is for the project titled "GEM-MEDOME", on the global essential medicines (GEM) database, developed by the Persaud Group at St. Michaels Hospital, Toronto, Ontario, Canada.  
+
+This study is registered under the number [**NCT03218189**](https://clinicaltrials.gov/ct2/show/NCT03218189). 
+
+This statistical analysis plan (SAP) has been written based on data contained in the manuscript and supplementary appendix of the original reporting of the GEM database [@persaud_comparison_2019]. 
+
+This is Version 1.1 of the SAP, Dated `r format(Sys.time(), '%d %B, %Y')`.
+
+Roles and Responsibility:
+
+* Krish Bilimoria: drafting of SAP
+* Ri Wang: statistical review of SAP 
+* Nav Persaud: review of SAP
+
+## Introduction
+
+Few studies have looked at the relationship between listing a medicine on a list of national essential medicines, and population health outcomes in that country. Given that countries use lists of essential medicines to determine which medicines are available and publicly funded in healthcare institutions, listing of these medicines may indicate the utility of medical intervention on population health. An analysis of the relationship of listed medicines and population health outcomes may support us in identifying which medicines: 
+
+1) ought to be adopted more broadly by all countries, as well as the WHO model list of essential medicines;
+
+2) which medicines ought to be removed from national essential medicines lists. 
+
+### Research hypothesis
+**H0:** Listing a medication on an NEML is not associated with a difference in the mean of the HAQ index of 137 countries.
+
+**H1:** Listing a medication on an NEML is associated with a difference in the mean of the health HAQ index of 137 countries.
+
+### Study objectives
+The primary objective of this analysis is to determine whether the listing of a medication on a national essential medicines list is associated with a difference in national health outcomes. 
+
+Secondary objectives are:
+
+1. To determine whether medications associated with an increase in national health outcomes are included on the WHO essential medicines list. 
+
+## Study methods
+
+This is a retrospective observational study of the listing of medicines in 137 countries. The selection of countries in the analysis, as well as the method of data extraction for each country's national essential medicines, including the year of the national essential medicines list extracted are documented in the earlier manuscript and supplementary tables [@persaud_comparison_2019; @persaud_comparison_2019-1]. 
+
+## Baseline characteristics
+
+137 countries will be described with respect to the following baseline characteristics: 
+
+* WHO region (categorical)
+* Population size (continuous, log-transformed)
+* Life expectancy (continuous)
+* Infant mortality (continuous)
+* GDP per capita (continuous, log-transformed)
+* Health-care expenditure per capita (continuous, log-transformed)
+* Sociodemographic index (continuous)
+
+Individual country-level baseline characteristics will be included in a supplementary table.  
+
+## Outcome definitions
+
+**HAQ Index**
+The outcome of interest in our analysis is the national health access and quality (HAQ) index [@fullman_measuring_2018]. The HAQ index is an assessment of personal health-care access and quality generated from data from the Global Burden of Diseases, Injuries, and Risk Factors Study 2016 (GBD 2016). The HAQ index attempts to track gains and gaps in personal health-care access and quality in countries over time. 
+
+The HAQ index methodology is derived from the Nolte and McKee list of causes amenable to healthcare, which is the most widely used framework to quantify national levels of health-care aces and quality on the basis on amenable mortality in countries in Europe, the OECD, and the USA [@nolte_does_2004; @nolte_measuring_2008; @nolte_variations_2011]. The HAQ index was generated upon applying the framework of the Nolte and McKee list, collecting information from 32/33 listed disease indications towards 195 countries in GBD 2016 [@naghavi_global_2017; @vos_global_2017; @gakidou_global_2017]. 
+
+## Primary analysis methods
+
+The primary effect estimate will be the difference in HAQ index, reported with a 95% CI. 
+2068 models will be generated that estimate the association of each medicine (2068 medicines) with the HAQ index (137). 
+
+For each medication-specific model, we will have one predictor (whether medication is listed or not), and three covariates against the HAQ index. 
+
+**Predictors:** Listing of a medicine on a national list of essential medicines (categorical, binary predictor)
+
+0: medicine is not listed on a national essential medicines list
+
+1: medicine is listed on a national essential medicines list
+
+**Outcome:** Health access and quality (HAQ) index (continuous, 0-100)
+
+Score generated from a principal components analysis (PCA) of the 32 component HAQ scores for each cause of death amenable to medical care. Factors cumulatively explaining over 80% of the variance were kept, and their weights generated the summary HAQ index. 
+
+**Covariates**: Appropriate covariates to control in the relationship between listing medicines and the HAQ index include: 
+
+* Population size (continuous, log-transformed)
+* GDP per capita (continuous, log-transformed)
+* Health-care expenditure per capita (continuous, log-transformed)
+
+**Threshold for statistical significance:** The threshold for statistical significance will be determined by permutation testing, as fitting 2068 models will require us to account for multiple hypothesis testing. 
+
+**Reporting results from the model:** we will report the: 
+
+(1) co-efficient for each medicine and covariate, 
+
+(2) the lower 95% CI, 
+
+(3) the upper 95% CI, 
+
+(4) un-adjusted p-value of the association, 
+
+(5) adjusted p-value of the association.
+
+**Follow-up literature search, medicines effectiveness, disease burden** 
+
+To interrogate of plausibility of medicines that meet statistical significance in modifying the mean of the HAQ score, we will conduct follow-up literature searches to investigate the clinical effectiveness of such medicines, and report the burden of the conditions for their clinical indications from disease incidence and prevalence estimates from GBD 2016 [@naghavi_global_2017]. 
+
+By investigating the clinical effectiveness of these medications and country-level disease burden, we seek to ascern whether the statistically significant relationship is plausible. 
+
+### Sensitivity analysis
+
+*Not sure what might be an appropriate sensitivity analysis in this case- removing one-at-a-time? Any suggestions Rick?*
+
+## Secondary analyses
+
+**Secondary analysis #1:** along with the primary analysis, least absolute shrinkage and selection operator (LASSO) will be applied as a regularization technique to reduce the complexity of the model, improve model performance, and account for multicollinearity between listing of individual medicines (predictors). LASSO penalizes the sum of absolute values of the coefficients (L1 penalty). The objective of this analysis is to assess for concordance between medicines whose associations meet the significance threshold in the primary analysis, and medicines that persist in the model following LASSO. 
+
+**Secondary analysis #2:** along with the primary analysis, ridge regression will be applied as an additional regularization technique. Ridge regression penalizes the sum of squared coefficients (L2 penalty). The objective of this analysis is to once again asses for concordance between medicines whose associations meet the significance threshold in the primary analysis, and medicines that persist in the model following ridge regression. 
+
+**Secondary analysis #3:** observe whether medicines that meet the significance threshold in each of the models (primary analysis, LASSO, and ridge regression) are also listed on the World Health Organization (WHO) model list of essential medicines. 
+
+## Statistical software
+
+All statistical analysis will be carried out in R version 3.6.0 and Python 3.5.0a3, using relevant packages in each of these groups. 
+
+## Bibliography
