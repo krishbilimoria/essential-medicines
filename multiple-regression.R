@@ -7,7 +7,7 @@
 library(magrittr)
 library(glmnet)
 
-getwd() #confirm that working directory is: "/~/essential-meds"
+getwd() #confirm that working directory is: "/~/essential-medicines"
 
 #Importing input variables, initial transformation
 gem <- data.table::fread("input/gem.csv",data.table = F) #each medicine is one row, each country is one column
@@ -108,6 +108,21 @@ pval.df.na <- pval.df[order(pval.df$`ATC code primary`),]
 pval.df.maf <- pval.df[-which(pval.df$maf <0.05),] #remove rare medicines, 1137x11
 pval.df.maf <- pval.df.maf[-which(pval.df.maf$maf > 0.95),] #remove very common medicines, 1114x11
 
+#Bonferroni threshold
+b.thres <- 0.05/2068
+b.thres.2 <- 0.05/1114
+show <- 0.005
+
+pval.df.maf.b <- pval.df.maf[-which(pval.df.maf$pvalue > b.thres),] #No medicines made the original bonferroni thresohld
+pval.df.maf.b.2 <- pval.df.maf[-which(pval.df.maf$pvalue > b.thres.2),] #No medicines made thee next bonferonni threshold
+pval.df.maf.show <- pval.df.maf[-which(pval.df.maf$pvalue > show),]
+
+#Saving rare & common medicines as their own variables
+pval.df.maf.low <- pval.df[which(pval.df$maf <0.05),]
+pval.df.maf.high <- pval.df[which(pval.df$maf >0.95),]
+
+pval.df.maf.dif <- rbind(pval.df.maf.low, pval.df.maf.high)
+
 #Annotating CLEANMEDS List with significant findings
 
 #make med names lowercased
@@ -148,6 +163,8 @@ cleanmeds.comparison <- merge(cmeds, pval.df.lower, by.x="Medication", by.y="dru
 write.csv(pval.df, file="output/results-full.csv") #2068x11 (all countries, even with missing HAQ/covariate data)
 write.csv(pval.df.na, file="output/results-full-na.csv") #2068x11 (removed countries with missing HAQ/covariate data)
 write.csv(pval.df.maf, file="output/results-full-maf.csv") #1137x11
+write.csv(pval.df.maf.dif, file="output/results-maf-rare-common.csv")
+write.csv(pval.df.maf.show, file="output/results-maf-show.csv")
 write.csv(cleanmeds.comparison, file="output/results-cleanmeds.csv") #102x20, 26 medicines removed due to inconsistent naming
 
 #end
