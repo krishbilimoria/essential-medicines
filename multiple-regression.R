@@ -1,6 +1,5 @@
 #MULTIPLE REGRESSION- GEM-MEDOME#
 #UPDATED 2019-08-02
-#DRAFTED BY KRISH BILIMORIA
 
 #Calling libraries from other sourecs
 #need (data.table)
